@@ -1,0 +1,23 @@
+{
+  "name": "slack-choices-bot",
+  "version": "1.0.0",
+  "description": "Slack Interactive (dropdown menu) example",
+  "main": "app.js",
+  "scripts": {
+    "deploy": "gcloud beta functions deploy slackChoicesBot --runtime nodejs8 --trigger-http --env-vars-file .env.yml --region asia-northeast1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/castaneai/slack-choices-bot.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/castaneai/slack-choices-bot/issues"
+  },
+  "homepage": "https://github.com/castaneai/slack-choices-bot#readme",
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5"
+  }
+}
